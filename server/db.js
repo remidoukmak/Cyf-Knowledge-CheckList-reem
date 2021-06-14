@@ -25,5 +25,5 @@ export const connectDb = async () => {
 
 export const disconnectDb = () => pool.close();
 
-// export default { query: pool.query };
-export const pool = new Pool(configObject);
+export default { query: pool.query };
+// export const pool = new Pool(configObject);
