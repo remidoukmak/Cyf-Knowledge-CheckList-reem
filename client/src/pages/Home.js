@@ -6,6 +6,16 @@ import logo from "./logo.svg";
 
 export function Home() {
 	const [message, setMessage] = useState("Loading...");
+	
+	// const [account, setAccount] = useState("");
+	// const [login, setLogin] = useState();
+
+	//   function setAccount() {
+	//   setAccount(0);
+	//   }
+	// function signIn() {
+	// 	setLogin();
+	// }
 
 	useEffect(() => {
 		fetch("/api")
@@ -25,11 +35,17 @@ export function Home() {
 
 	return (
 		<main role="main">
-			<div>
-				<img className="logo" data-qa="logo" src={logo} alt="Just the React logo" />
-				<h1 className="message" data-qa="message">{message}</h1>
-				<Link to="/about/this/site">About</Link>
-			</div>
+
+			{/* <img
+					className="logo"
+					data-qa="logo"
+					src="https://codeyourfuture.io/wp-content/uploads/2019/03/cyf_brand.png"
+					alt="Just the React logo"
+				/>
+				<h1 className="message" data-qa="message">
+					{message}
+				</h1>
+				<Link to="/about/this/site">About</Link> */}
 		</main>
 	);
 }

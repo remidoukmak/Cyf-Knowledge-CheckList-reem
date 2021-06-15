@@ -9,3 +9,20 @@
 .message:hover {
     background-color: yellow;
 }
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: san-serif;
+    background-image: url("https://i.natgeofe.com/n/cfa19a0d-eff0-4628-8fdd-2ad8d66845dd/mountain-range-appenzell-switzerland.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+background: #fff;
+padding: 20px;
+margin: 8% auto 0;
+text-align: centre;
+}
