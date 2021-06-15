@@ -1,4 +1,4 @@
-# Starter Kit
+# CYF Shooting Stars Project
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
